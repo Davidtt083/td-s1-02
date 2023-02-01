@@ -45,6 +45,7 @@
 .overlay:target {
   visibility: visible;
   opacity: 1;
+  z-index: 20;
 }
 
 a {
@@ -57,7 +58,7 @@ a {
   background: #fff;
   border-radius: 5px;
   width: 693px;
-  height: 320px;
+  height: 128px;
   position: relative;
   transition: all 0.5s ease-in-out;
   margin-top: 165px;
@@ -127,7 +128,7 @@ a {
   width: 123px;
   height: 60px;
   border-radius: 5px;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
   color: #fff;
   transition: all 500ms;
@@ -135,8 +136,8 @@ a {
 }
 
 
-.column1{
-margin: 5px;
+.column1 {
+  margin: 5px;
 }
 
 .col-her {
@@ -150,13 +151,14 @@ margin: 5px;
 
 .head1 {
   margin-left: -3px !important;
-  margin-bottom: 10px;
+  margin-bottom: -2px;
   text-align: center;
 }
 
 .boton {
   color: #fff;
   text-decoration: none;
+  z-index: 1;
 }
 
 .boton2 {
@@ -166,10 +168,9 @@ margin: 5px;
   pointer-events: none;
 }
 
-.btnTit{
+.btnTit {
   color: #fff;
   text-decoration: none;
-  cursor: pointer;
   transition: all 500ms;
 }
 
@@ -192,7 +193,7 @@ margin: 5px;
   position: absolute;
   font-size: 40px;
   margin-left: 22px;
-  margin-top: 197px;
+  margin-top: 150px;
   background-color: red;
   color: #fff;
   border-radius: 50%;
@@ -201,7 +202,8 @@ margin: 5px;
   padding-left: 10px;
   transition: 0.5s ease-out 100ms;
 }
-.regresar:hover{
+
+.regresar:hover {
   opacity: .6;
 }
 
@@ -209,7 +211,7 @@ margin: 5px;
   position: absolute;
   font-size: 40px;
   margin-left: 22px;
-  margin-top: 76px;
+  margin-top: 34px;
   background-color: red;
   color: #fff;
   border-radius: 50%;
@@ -218,6 +220,26 @@ margin: 5px;
   padding-left: 10px;
   transition: 0.5s ease-out 100ms;
 }
-.regresar2:hover{
+
+.regresar2:hover {
   opacity: .6;
+}
+
+.lista1 {
+  font-size: 10px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.btncont3 {
+  width: 300px;
+  margin-left: -84px !important;
+}
+.mas{
+  position: absolute;
+  color: #fff;
+  margin-top: -19px !important;
+  margin-left: -450px;
+  font-size: 22px;
+  cursor: pointer;
 }
